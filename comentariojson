@@ -1,0 +1,8 @@
+etiqueta name: "da nombre al inicio de la app"
+etiqueta background-color: "fondo de color al inicio de la app"
+etiqueta theme_color: "fondo de color de la app principal"
+etiqueta display: " le quitamos la barra de nagevacion del navegador"
+etiqueta start_url: "variables que se pasa al telefono del origen que es una app web, es un estandar si o si se pone como esta"
+etiqueta scope: " si ponemos punto y diagonal estamos en la raiz del archivo para cargar todo"
+etique lang: "el idioma de la app"
+etiqueta icons: " si o si nos piden un icono para mostrar en la app"

@@ -1,0 +1,21 @@
+{
+    "name":"Música Gratis",
+    "short_name":"Música Gratis",
+    "description":"Música Gratis",
+    "background_color":"#373B44",
+    "theme_color":"#373B44",
+    "orientation":"portrait",
+    "display":"standalone",
+    "id": "./?utm_source=web_app_manifest",
+    "start_url":"./?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang":"es-AR",
+    "icons":[
+        {
+        "src":"./image/logomusica.png",
+        "sizes":"640x640",
+        "type":"image/png",
+        "purpose": "any"
+        }
+    ]
+}
