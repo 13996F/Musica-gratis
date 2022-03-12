@@ -10,9 +10,10 @@
     padding-top: 50px;
     border-radius: 10px;
 }
-.cajaModern h3 
+.cajaModern p
 {
     margin-top: 30px;
+    font-size: 15px;
     color: white;
     background: #3a7bd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
