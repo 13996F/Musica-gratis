@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	 <!--Pintar el color de la barra de naveación-->
+	 <meta name="theme-color" content="#373B44">
+
+	 <!--El navegador entiende que el sitio está optimizado para celular movil-->
+	 <meta name="MobileOptimized" content="width">
+	 <meta name="HandheldFriendly" content="true">
+ 
+	 <!--etiquetas para dispositivo de apple-->
+	 <meta name="apple-mobile-web-app-capable" content="yes">
+	 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ 
+	 <!--icono que ve en el buscador del navegador-->
+	 <link rel="shourtcut icon" href="./image/logomusica.png">
+ 
+	 <!--esta etiqueta permite crear un icono principal en los telefonos moviles-->
+	 <link rel="apple-touch-icon" href="./image/logomusica.png">
+ 
+	 <!--icono que se ve al principio de la pantalla de los celulares moviles-->
+	 <link rel="apple-touch-startup image" href="./image/logomusica.png">
+ 
+	 <!--archivo manifiesto para convertir el sitio a una PWA-->
+	 <link rel="manifest" href="./manifest.json">
+
+	<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="./style/estilos.css">
+
+	<link rel="stylesheet" href="./style/bolicheros.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<title>Música gratis</title>
+</head>
+<body>
+	<header>
+        <div class="container">
+            <nav>
+                <a href="#" id="icono" class="icono">Escuchar</a>
+                <div class="enlaces uno" id="enlaces">
+                    <a href="index.html">Inicio</a>
+                    <a href="">Romanticos</a>
+                    <a href="">Rock Internacional</a>
+                    <a href="bolicheros.html">Bolicheros</a>
+                    <a href="cumbia.html">Cumbia</a>
+                    <a href="">Bachata</a>
+                </div>
+            </nav>
+            <div class="textos">
+                <h1>Música Gratis</h1>
+                <h2>Las mejores música para tus oidos</h2>
+            </div>
+            <img src="./image/logomusica.png" alt="">
+        </div>
+    </header>
+    <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </div>
+	<div class="cajaBolicheros">
+		<section class="container">
+			<article>
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<h3>
+							Temerarios
+						</h3>
+						<a href="temerarios.html"><img src="./image/imgtemerarios.jpg" class="img-fluid" alt=""></a>
+					</div>
+					<div class="col-md-3 text-center">
+						<h3>
+							Jambao
+						</h3>
+						<a href="jambao.html"><img src="./image/imgjambao.jpg" class="img-fluid" alt=""></a>
+					</div>
+					<div class="col-md-3 text-center">
+						<h3>
+							Bandy2
+						</h3>
+						<img src="./image/imgbandy2.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-md-3 text-center">
+						<h3>
+							Damas Gratis
+						</h3>
+						<img src="./image/imgdamasgratis.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+			</article>
+		</section>
+	</div>
+	<script src="script.js"></script>
+	<script src="scriptMenu.js"></script>
+	<script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
